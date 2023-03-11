@@ -1,0 +1,21 @@
+{
+  "name": "reactive-programming-example",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start:api": "ts-node --esm api.ts",
+    "start:client": "ts-node --esm client.ts"
+  },
+  "author": "Soslan Aldatov <me@sptm.dev>",
+  "license": "BSD",
+  "dependencies": {
+    "fastify": "^4.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "eslint": "^8.36.0",
+    "typescript": "^4.9.5"
+  }
+}
